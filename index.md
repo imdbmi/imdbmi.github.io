@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Over the rainbow
-subtitle: History of diversity in cinema
+title: Over the Rainbow🌈
+subtitle: The History of Diversity in Cinema
 output: html_document
 cover-img: /assets/img/projector.jpg
 use-site-title: true
+show-avatar: false
 ---
 
 ## Header
