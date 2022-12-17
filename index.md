@@ -25,7 +25,31 @@ In this project, we use dataset from CMU Movie Dataset, ...
 </figure>
 </center>
 
-## Diversity in Age
+## Diversity
+
+### Gender
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/gender_per_genre_over_time1y.html">
+</iframe>
+</center>
+
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/gender_per_genre_over_time2y.html">
+</iframe>
+</center>
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="80%" height="650" src="plots/gender_per_genre_over_time5y.html">
+</iframe>
+</center>
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="80%" height="650" src="plots/gender_per_genre_over_time10y.html">
+</iframe>
+</center>
+### Age
 
 A movie that represents a diverse range of ages may be more relatable and resonant for a wider range of viewers. Additionally, a diverse cast can help to attract a diverse audience, which can also contribute to the movie's financial success.
 
