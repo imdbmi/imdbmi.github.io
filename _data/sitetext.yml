@@ -70,8 +70,11 @@ en: &DEFAULT_EN
 
   about:
     title: "Background"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "\"Diversity is not about how we differ. Diversity is about embracing one another's uniquenesss.\"
+    <br><br>--Ola Joseph"
+    body: "
+    
+    "
     section: background
     background: gray
 
