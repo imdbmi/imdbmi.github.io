@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% include navheader.html %}
+{% include about.html %}
+{% if page.background == "grey" or page.background == "gray" %}
+<script>
+document.getElementById("page-top").className="bg-light";
+</script>
+{% endif %}
+
+<div class="container" id="pagecontainer">
+{{ content }}
+</div>
+{% include timeline.html %}
+{% include team.html %}
+{% include clients.html %}
