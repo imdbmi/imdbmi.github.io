@@ -12,6 +12,22 @@ show-avatar: false
 
 ### Sample text
 
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/gender_per_genre_over_time1y.html">
+</iframe>
+
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/gender_per_genre_over_time2y.html">
+</iframe>
+
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/gender_per_genre_over_time5y.html">
+</iframe>
+
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/gender_per_genre_over_time10y.html">
+</iframe>
+
 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur[^1] aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam[^2] quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
 
 
