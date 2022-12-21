@@ -10,8 +10,24 @@ usemathjax: true
 
 
 ## Data and Intial Analysis
-In this project, we use dataset from CMU Movie Dataset, ...
+In this project, we use dataset from CMU Movie Dataset, this dataset was collected by 
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_30_genre_movies.html">
+</iframe>
+</center>
 
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/cpi.html">
+</iframe>
+</center>
+
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/adjusted_revenue.html">
+</iframe>
+</center>
 
 
 <blockquote>
@@ -53,17 +69,7 @@ In this project, we use dataset from CMU Movie Dataset, ...
 A movie that represents a diverse range of ages may be more relatable and resonant for a wider range of viewers. Additionally, a diverse cast can help to attract a diverse audience, which can also contribute to the movie's financial success.
 
 In this section, we will study the 
-<center>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/cpi.html">
-</iframe>
-</center>
 
-<center>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/adjusted_revenue.html">
-</iframe>
-</center>
 
 
 ## References

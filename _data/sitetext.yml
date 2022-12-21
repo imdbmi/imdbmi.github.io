@@ -99,6 +99,9 @@ en: &DEFAULT_EN
       - title: "CMU Movie Summary Corpus"
         url: http://www.cs.cmu.edu/~ark/personas/
         logo: assets/img/clients/cmu.png
+      - title: "OpenSubtitles.org"
+        url: https://opus.nlpl.eu/OpenSubtitles-v2018.php
+        logo: assets/img/clients/opensub.gif
     body: "
     We thank ADA team for .
     "
