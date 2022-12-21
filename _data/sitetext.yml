@@ -99,10 +99,13 @@ en: &DEFAULT_EN
       - title: "CMU Movie Summary Corpus"
         url: http://www.cs.cmu.edu/~ark/personas/
         logo: assets/img/clients/cmu.png
+    body: "
+    We thank ADA team for .
+    "
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Introducing team imdbmi (yes we also like palindrome.)"
+    title: "About IMDBMI Team"
+    text: "We are a team of EPFL students."
     section: team
     people:
       - name: "Kay Garland"
