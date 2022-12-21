@@ -13,6 +13,7 @@ usemathjax: true
 In this project, we use dataset from CMU Movie Dataset, ...
 
 
+
 <blockquote>
   But... why do things work the way they do?
 </blockquote>
@@ -54,10 +55,15 @@ A movie that represents a diverse range of ages may be more relatable and resona
 In this section, we will study the 
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/cpi.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/cpi.html">
 </iframe>
 </center>
 
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/adjusted_revenue.html">
+</iframe>
+</center>
 
 
 ## References
