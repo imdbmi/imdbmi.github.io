@@ -31,17 +31,17 @@ In this project, we use dataset from CMU Movie Dataset, ...
 
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="80%" height="650" src="plots/gender_count.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450" src="plots/gender_count.html">
 </iframe>
 </center>
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="80%" height="650" src="plots/gender_ratio.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450" src="plots/gender_ratio.html">
 </iframe>
 </center>
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="80%" height="650" src="plots/gender_per_genre_over_time5y.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/gender_per_genre_over_time5y.html">
 </iframe>
 </center>
 
