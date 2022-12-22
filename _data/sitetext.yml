@@ -17,9 +17,9 @@ en: &DEFAULT_EN
     buttonlink: "#background"
 
   services:
-    title: "Story"
-    text: "Lorem ipsum"
-    section: services
+    title: ""
+    text: ""
+    section: quesitons
     list:
       - title: "E-Commerce"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -29,6 +29,9 @@ en: &DEFAULT_EN
         icon: fas fa-laptop
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+      - title: "Test"
+        desc: "Test"
         icon: fab fa-markdown
 
   portfolio:
@@ -74,7 +77,7 @@ en: &DEFAULT_EN
     <br><br>--Ola Joseph"
     body: "
     The movie industry has long been criticized for its lack of diversity both on and off screen. Despite numerous efforts to address this issue, the representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films.
-    <br>
+    <br><br>
     This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and perpetuates a narrow and limited view of the world. It is important for the movie industry to prioritize diversity in order to accurately and fairly represent the diverse experiences and perspectives of people from all walks of life.
     "
     section: background
