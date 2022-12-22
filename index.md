@@ -11,6 +11,9 @@ usemathjax: true
 
 ## Data and Intial Analysis
 In this project, we use dataset from CMU Movie Dataset, this dataset was collected by 
+
+To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from *Federal Reserve Economic Data*, specifically the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS). Since this inflation data goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century.
+
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_30_genre_movies.html">
@@ -69,6 +72,16 @@ In this project, we use dataset from CMU Movie Dataset, this dataset was collect
 A movie that represents a diverse range of ages may be more relatable and resonant for a wider range of viewers. Additionally, a diverse cast can help to attract a diverse audience, which can also contribute to the movie's financial success.
 
 In this section, we will study the 
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/revenue_vs_mean_cast_age.html">
+</iframe>
+</center>
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/revenue_vs_cast_age_diff.html">
+</iframe>
+</center>
 
 
 
