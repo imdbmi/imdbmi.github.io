@@ -63,6 +63,11 @@ To study the revenue we first need to adjust the revenue according to the inflat
 </center>
 <center>
 <iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450" src="plots/gender_ratio_box_office.html">
+</iframe>
+</center>
+<center>
+<iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/gender_per_genre_over_time5y.html">
 </iframe>
 </center>
