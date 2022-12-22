@@ -73,7 +73,9 @@ en: &DEFAULT_EN
     text: "\"Diversity is not about how we differ. Diversity is about embracing one another's uniquenesss.\"
     <br><br>--Ola Joseph"
     body: "
-    The movie industry has long been criticized for its lack of diversity both on and off screen. Despite numerous efforts to address this issue, the representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films. This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and perpetuates a narrow and limited view of the world. It is important for the movie industry to prioritize diversity in order to accurately and fairly represent the diverse experiences and perspectives of people from all walks of life.
+    The movie industry has long been criticized for its lack of diversity both on and off screen. Despite numerous efforts to address this issue, the representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films.
+    <br>
+    This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and perpetuates a narrow and limited view of the world. It is important for the movie industry to prioritize diversity in order to accurately and fairly represent the diverse experiences and perspectives of people from all walks of life.
     "
     section: background
     background: gray
