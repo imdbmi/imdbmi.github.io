@@ -51,11 +51,11 @@ To study the revenue we first need to adjust the revenue according to the inflat
 
 ### Gender
 
-<center>
+<!-- <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450" src="plots/gender_count.html">
 </iframe>
-</center>
+</center> -->
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450" src="plots/gender_ratio.html">
