@@ -9,7 +9,7 @@ To study the revenue we first need to adjust the revenue according to the inflat
 
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_30_genre_movies.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_21_genre_movies.html">
 </iframe>
 </center>
 
