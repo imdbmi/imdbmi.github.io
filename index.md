@@ -108,6 +108,20 @@ In this section, we will study the
 </iframe>
 </center>
 
+### Sentiment Analysis
+
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/sentiment_diversity.html">
+</iframe>
+</center>
+
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/sentiment_ethnicity.html">
+</iframe>
+</center>
+
 
 
 ## References
