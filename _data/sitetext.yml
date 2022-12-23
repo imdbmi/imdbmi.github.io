@@ -26,7 +26,7 @@ en: &DEFAULT_EN
         - adfaf a
 
         - dfas fas
-        
+
         - fdsaf
         "
         icon: fas fa-film #find more at https://fontawesome.com/icons
@@ -39,7 +39,7 @@ en: &DEFAULT_EN
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "Timeline"
@@ -111,7 +111,7 @@ en: &DEFAULT_EN
     "
 
   team:
-    title: "About IMDBMI Team"
+    title: "<h3>About IMDBMI Team</h3>"
     text: "We are a team of EPFL students. <br><sup> (We also like palindrome!)</sup>"
     section: team
     people:

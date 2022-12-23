@@ -4,13 +4,11 @@ usemathjax: true
 ---
 
 ## Introduction
-The movie industry has long been criticized for its lack of diversity both **on** and **off** screen. Despite numerous efforts to address this issue, the representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films. 
-
-This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and perpetuates a narrow and limited view of the world. It is important for the movie industry to prioritize diversity in order to accurately and fairly represent the diverse experiences and perspectives of people from all walks of life.
+The movie industry has long been criticized for its lack of diversity both **on** and **off** screen. Despite numerous efforts to address this issue, the representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films. This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and perpetuates a narrow and limited view of the world.
 
 ## Research questions
 
-Our reseach questions can be divided into two parts: **on** screen and **off** screen where we will take a deeper look at the diversity in the movie industry.
+To find out what it was like it the history of movie industy, we devised our reseach questions into two categories: **On** screen and **Off** screen where we will take a deeper look at the diversity in the movie industry.
 {% include services.html %}
 ### Off screen
 > What is the evolution of the gender Gap in movies? Is there a significant difference in number of movies directed by men vs women? And does the gender of lead actor or director impact the revenue of a movie?
@@ -140,6 +138,9 @@ In this section, we will study the
 </iframe>
 </center>
 
+
+### Word Cloud
+{% include portfolio_grid.html %}
 
 
 ## References
