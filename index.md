@@ -88,11 +88,11 @@ Here we actually seem to see the opposite as above. Instead of the gender gap cl
 
 
 
-### Are the Hollywood stars just like us?
+### Ethnicity
+
+> Are the Hollywood stars just like us?
 
 TLDR: No, they are taller and less ethnically diverse compared to the average American.
-
-### Ethnicity
 
 Using the ethnicity, gender, height and age in CMU dataset we want to analyze how comparable are movies with the average population of its countries and how did it change over time.
 
