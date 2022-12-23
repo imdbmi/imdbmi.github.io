@@ -6,11 +6,19 @@ usemathjax: true
 ## Introduction
 The movie industry has long been criticized for its lack of diversity both **on** and **off** screen. Despite numerous efforts to address this issue, the representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films. This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and perpetuates a narrow and limited view of the world.
 
+## Data and Intial Analysis
+In this project, we use a combination of different datasets:
+ - [CMU Movie Summary Corpus](http://www.cs.cmu.edu/~ark/personas/) which contains over 40,000 movie plot summaries extracted from Wikipedia and also metadata such as characters, genre, release date information.
+ - [Wikidata](https://www.wikidata.org/wiki/) from where we extracted additional movie metadata and extending the CMU Movie dataset.
+ - [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) from which we were able to extract over 20 000 english subtitles and map to our existing data.
+- [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS) To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from *Federal Reserve Economic Data*. Since this inflation data goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century.
+
 ## Research questions
 
 To find out what it was like it the history of movie industy, we devised our reseach questions into two categories: **On** screen and **Off** screen where we will take a deeper look at the diversity in the movie industry.
 {% include services.html %}
-### Off screen
+### Diversity Off screen
+
 > What is the evolution of the gender Gap in movies? Is there a significant difference in number of movies directed by men vs women? And does the gender of lead actor or director impact the revenue of a movie?
 
 Throughout the history of the silver screen, not many talented women have been recognized for their work as directors in the film industry. Notably the first woman to have won an Oscar for directing is Kathryn Bigelow for her work on the war film "The Hurt Locker." This happened in 2010, 81 years after the creation of the [**Academy Award for Best Director**](https://www.oscars.org) and only four women were nominated before that.
@@ -19,19 +27,24 @@ On the other hand one could argue that Academy Awards don’t represent a succes
 
 > Does diversity impact the financial success of a movie? 
 
-To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from **Federal Reserve Economic Data**[^1], specifically the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS). Since this inflation data goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century. The adjustment is done by multiplying the inflation rate factor to the movie revenue.
+To give our readers a brief view of the movies we use, we plot the top 21 genres in the movie dataset we combined.
+<center>
+<iframe 
+frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_21_genre_movies.html">
+</iframe>
+</center>
+
+To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from **Federal Reserve Economic Data**[^1], specifically the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS). Since this inflation data records CPI from year 2022 and goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century. The adjustment is done by multiplying the inflation rate factor to the movie revenue.
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/cpi.html">
 </iframe>
 </center>
 
-
-
 The inflation rate multiplier for a year $$r_{year}$$ is calculcated as
 
 $$
-r_{year} = \frac{CPI_{\text{year 2020}}}{CPI_{year}}
+r_{year} = \frac{CPI_{\text{2022}}}{CPI_{year}}
 $$
 
 The the movie revenue for each year is adjusted by multiplying the revenue by this multiplier, and the revenue after ajustment is shown in the figure below
@@ -67,20 +80,6 @@ Another interesting thing to note is the growth and fall of African American rep
 
 
 
-## Data and Intial Analysis
-In this project, we use a combination of different datasets:
- - [CMU Movie Summary Corpus](CMU Movie Summary Corpus) which contains over 40 000 movie plot summaries extracted from Wikipedia and also metadata such as characters information.
- - [Wikidata](https://www.wikidata.org/wiki/) from where we extracted additional movie metadata and extending the CMU Movie dataset.
- - [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) from which we were able to extract over 20 000 english subtitles and map to our existing data.
-- [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS) To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from *Federal Reserve Economic Data*. Since this inflation data goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century.
-
-<center>
-<iframe 
-frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_21_genre_movies.html">
-</iframe>
-</center>
-
-
 
 <!-- <blockquote>
   But... why do things work the way they do?
@@ -113,9 +112,11 @@ frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height
 
 ### Age
 
+Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. A common 
+
 A movie that represents a diverse range of ages may be more relatable and resonant for a wider range of viewers. Additionally, a diverse cast can help to attract a diverse audience, which can also contribute to the movie's financial success.
 
-In this section, we will study the 
+In this part, we will try to unravel the mistery in our data to see if a more diversed cast in terms of age can ripple through more audiences thus generating higher movie box revenue.
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_mean_cast_age.html">
@@ -153,24 +154,24 @@ At first glance, we observe an overall negative sentiment for non-binary gender 
 
 As for the ethnicity-related keywords, the decrease in the sentiment of the term `mexican` is distinguishable from the rest. Upon further inspection, we further realized that this is a reflection of the tension between the US and Mexico border and issues related to immigrants. In addition, the sentiment towards `russia` is also distinctively negative; however, it starts to raise after the dissolution of the USSR.
 
-## Plots (title to be changes)
+## Plots (title to be changed)
 <center>
 <figure>
-<img src="assets/img/trace/gay.svg" style="width:70%">
+<img src="assets/img/trace/gay.svg" style="width:80%">
 <figcaption><em>Figure 1.</em> Placeholder caption.</figcaption>
 </figure>
 </center>
 
 <center>
 <figure>
-<img src="assets/img/trace/man.svg" style="width:70%">
+<img src="assets/img/trace/man.svg" style="width:80%">
 <figcaption><em>Figure 2.</em> Placeholder caption.</figcaption>
 </figure>
 </center>
 
 <center>
 <figure>
-<img src="assets/img/trace/woman.svg" style="width:70%">
+<img src="assets/img/trace/woman.svg" style="width:80%">
 <figcaption><em>Figure 3.</em> Placeholder caption.</figcaption>
 </figure>
 </center>
