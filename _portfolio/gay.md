@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Gay
   subtitle: 
-  thumbnail: assets/wordcloud/gay.webp
+  thumbnail: assets/wordcloud/gay.png
   
 #what displays when the item is clicked:
 title: Word cloud of "Gay"
