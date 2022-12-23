@@ -136,7 +136,7 @@ Another interesting thing to note is the growth and fall of African American rep
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/USA_Height.html ">
 </iframe>
 </center>
- Comparing these two we see that for almost one hundred years we analyse whe average height was around 180cm for men and 165cm. These values are quite close to the current population means. But in 30's and 40's and actor was on average 10cm taller than an average American man.
+ Comparing these two we see that for almost one hundred years we analyse whe average height has been around 180cm for men and 165cm for women. These values are quite close to the current population means. But in 30's and 40's and actor was on average 10cm taller than an average American man.
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/Hollywood_Height.html ">
