@@ -59,6 +59,17 @@ Another interesting thing to note is the growth and fall of African American rep
 
 (Because there aren't comprehensive data about different ethnicities we use United States Census Bureau data on races)
 
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/US_Census_Percentage.html">
+</iframe>
+</center>
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/US_Census_Percentage.html">
+</iframe>
+</center>
+
 ---TODO---
 
 
