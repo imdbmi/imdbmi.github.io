@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Indian
   subtitle: 
-  thumbnail: assets/wordcloud/indian.png
+  thumbnail: assets/wordcloud/indian.webp
   
 #what displays when the item is clicked:
 title: Word cloud of "Indian"

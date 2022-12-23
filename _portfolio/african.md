@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: African
   subtitle: 
-  thumbnail: assets/wordcloud/african.png
+  thumbnail: assets/wordcloud/african.webp
   
 #what displays when the item is clicked:
 title: Word cloud of "African"

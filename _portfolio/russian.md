@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Russian
   subtitle: 
-  thumbnail: assets/wordcloud/russian.png
+  thumbnail: assets/wordcloud/russian.webp
   
 #what displays when the item is clicked:
 title: Word cloud of "Russian"

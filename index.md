@@ -151,6 +151,28 @@ In this section, we will study the
 </center>
 
 
+## Plots (title to be changes)
+<center>
+<figure>
+<img src="assets/img/trace/gay.svg" style="width:70%">
+<figcaption><em>Figure 1.</em> Placeholder caption.</figcaption>
+</figure>
+</center>
+
+<center>
+<figure>
+<img src="assets/img/trace/man.svg" style="width:70%">
+<figcaption><em>Figure 2.</em> Placeholder caption.</figcaption>
+</figure>
+</center>
+
+<center>
+<figure>
+<img src="assets/img/trace/woman.svg" style="width:70%">
+<figcaption><em>Figure 3.</em> Placeholder caption.</figcaption>
+</figure>
+</center>
+
 ### Word Cloud
 {% include portfolio_grid.html %}
 

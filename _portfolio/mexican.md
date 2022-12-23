@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Mexican
   subtitle: 
-  thumbnail: assets/wordcloud/mexican.png
+  thumbnail: assets/wordcloud/mexican.webp
   
 #what displays when the item is clicked:
 title: Word cloud of "Mexican"
