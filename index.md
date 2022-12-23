@@ -56,9 +56,10 @@ At the same time the share of Hispanic characters has been stagnating between 3%
 Another interesting thing to note is the growth and fall of African American representation which corresponds to the rise and fall of Blaxploitation films. These were a genre of movies, that isn’t very well know in Europe, that emerged in the 1970s and initially aimed at a  African American audience. These films featured a mostly African American cast and often depicted themes of crime, violence, and empowerment, but they were also controversial in their portrayal of African American culture and were often accused of perpetuating negative stereotypes.
 
 (Because there aren't comprehensive data about different ethnicities we use United States Census Bureau data on races)
+
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/US_Census_Percentage.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/US_Census_Percentage.html ">
 </iframe>
 </center>
 
