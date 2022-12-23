@@ -163,15 +163,18 @@ To gain deeper insight into the language used in movies, we run experiments of [
 
 For each keyword, we extracted both fix-sized context windows and dialogue sentences from subtitles and predicted their sentiment class with a transformer-based sentiment analyzer, [roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest).
 
+In the graph bellow, we analyzed the emotion behind the occurences of words in subtitles. This allows us to see if terms such as "gay" are discussed in positive, neutral or negative context.
+
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/sentiment_diversity.html">
 </iframe>
 </center>
 
+At first glance, we observe an overall negative sentiment for LGBTQ+ keywords compared to `man` and `woman` throughout the span of the dataset. What is more interesting is that the mean sentiment score for keywords `gay` and `queer` (which are the most frequent terms) even decreased compared to 1972 and before. This hints at the usage of non-binary terms in negative contexts with verbal slurs more often in movies. As our dataset does not include recent movies, we don’t see the effects of increased sensibility toward gender equality.
+
 To demystify the plot above, we first point out two key elements. First, we realize that all the sentiment scores are below zero. The reason behind this is 54.4% of analyzed sentences have a sentiment label `Neutral`, followed by 29.0% `Negative`. Another point to notice is the large 95% confidence interval bars for some entries. This due to having too few samples for those keywords in the respective year intervals.
 
-At first glance, we observe an overall negative sentiment for non-binary gender keywords compared to `man` and `woman` throughout the span of the dataset. What is more interesting is that the mean sentiment score for keywords `gay` and `queer` (which are the most frequent non-binary gender terms) even decreased compared to 1972 and before. This hints at the usage of non-binary terms in negative contexts with verbal slurs more often in movies. As our dataset does not include recent movies, we don’t see the effects of increased sensibility toward gender equality.
 
 <center>
 <iframe 
