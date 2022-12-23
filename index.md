@@ -47,6 +47,9 @@ To find out what it was like it the history of movie industy, we devised our res
 {% include services.html %}
 
 
+# Diversity Off Screen
+
+## Gender
 Throughout the history of the silver screen, not many talented women have been recognized for their work as directors in the film industry. Notably the first woman to have won an Oscar for directing is Kathryn Bigelow for her work on the war film "The Hurt Locker." This happened in 2010, 81 years after the creation of the [**Academy Award for Best Director**](https://www.oscars.org) and only four women were nominated before that.
 
 
@@ -86,9 +89,28 @@ Here we actually seem to see the opposite as above. Instead of the gender gap cl
 
 
 
+## Age
+> Would a more diverse cast in terms of age help achieve higher box office revenues?
 
+In this part we will try to see if this is just a myth or another secret key to achieve success on the silver screen.
 
-### Ethnicity
+To begin with let's define two metrics that reflect the diversity in age of the cast members: mean age and max difference in age. And then we performed a regression analysis to study the correlation between `mean cast age`, `max cast age`, and the movie box revenue. And we study the movie for every ten years and anylze them in their own genere. The result didn't show much significant correlations.
+
+Moreover, we also visualize the relationship between these two variables and the revenue, and also there are not pattern we discern. Therefore, we would say this is possibly just a myth.
+<div style="text-align:center; font-style:italic;"><sup><b>Scroll to view the visualization for mean cast age</b></sup></div>
+<div class="scroll-container">
+  <div class="gridscroll">
+    <!-- PLACE YOUR IMG URL HERE -->
+      <iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_cast_age_diff.html">
+</iframe>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_mean_cast_age.html">
+</iframe>
+  </div>
+</div>
+
+## Ethnicity
 
 > Are the Hollywood stars just like us?
 
@@ -152,28 +174,9 @@ Another interesting thing to note is the growth and fall of African American rep
 
 Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. Some may be thinking that a film representing a diverse age group may be relatable and resonate with a larger audience thus leading to a higher chance of success on the market. So the *myth* we want to find out is 
 
-> Would a more diverse cast in terms of age help achieve higher box office revenues?
-
-In this part we will try to see if this is just a myth or another secret key to achieve success on the silver screen.
-
-To begin with let's define two metrics that reflect the diversity in age of the cast members: mean age and max difference in age. And then we performed a regression analysis to study the correlation between `mean cast age`, `max cast age`, and the movie box revenue. And we study the movie for every ten years and anylze them in their own genere. The result didn't show much significant correlations.
-
-Moreover, we also visualize the relationship between these two variables and the revenue, and also there are not pattern we discern. Therefore, we would say this is possibly just a myth.
-<div style="text-align:center; font-style:italic;"><sup><b>Scroll to view the visualization for mean cast age</b></sup></div>
-<div class="scroll-container">
-  <div class="gridscroll">
-    <!-- PLACE YOUR IMG URL HERE -->
-      <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_cast_age_diff.html">
-</iframe>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_mean_cast_age.html">
-</iframe>
-  </div>
-</div>
 
 # Diversity On Screen
-### Sentiment Analysis
+## Sentiment Analysis
 To gain deeper insight into the language used in movies, we run experiments of [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) corpus, which is a collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/). We matched 27,329 subtitles from the corpus with the CMU dataset and extracted 74,518,995 tokens after lemmatization and stopword removal. We then split the corpus into 5 bins comprised of an equal number of tokens to compare the language across years.
 
 For each keyword, we extracted both fix-sized context windows and dialogue sentences from subtitles and predicted their sentiment class with a transformer-based sentiment analyzer, [roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest).
@@ -202,9 +205,9 @@ To demystify the plot above, we first point out two key elements. First, we real
 
 As for the ethnicity-related keywords, the decrease in the sentiment of the term `mexican` is distinguishable from the rest. Upon further inspection, we further realized that this is a reflection of the societal tensions in topics connected to immigrants. In addition, the sentiment towards `russia` is also distinctively negative; however, it starts to raise after the dissolution of the USSR (as a word soviet was used in similar negative contexts before).
 
-## The evolution of words
+## The Evolution of Words
 
-Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi and Lei Lei](https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article) we decided to study how semantic use change specifically when it comes to Hollywood movies. As the initial study was done on a collection of English language books, which is quite different from the daily spoken familiar language we often see in movies and we wanted to see what are the potentiall differences in semantics between these two.
+Inspired by the evolution analysis[^2] of words we decided to study how semantic use change specifically when it comes to Hollywood movies. As the initial study was done on a collection of English language books, which is quite different from the daily spoken familiar language we often see in movies and we wanted to see what are the potentiall differences in semantics between these two.
 
 
 <div style="text-align:center; font-style:italic;"><sup><b>Scroll to left for more pictures</b></sup></div>
@@ -224,7 +227,7 @@ When it comes to the usage of the word woman, we see that initially it was heavi
 On the other hand the usage of the word man didn't change as significantly, only loosing its connection to soldier over time.
 
 
-### Word Cloud
+## Word Cloud
 In this part we decided to look at what are the most popular adjectives describing gender, ethnicity and sexuality.
 Here we can see the frequency of stereotypes, remarking that the most popular adjectives are heavily stereotypical taling about dangerous Mexicans, fat Indians and stunted bisexuals.
 
@@ -235,3 +238,4 @@ You can click on each image to look at the words in more detail.
 ## References
 
 [^1]: **What is FRED?** [https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred](https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/).
+[^2]: **The evolution of LGBT labelling words Yaqian Shi and Lei Lei** [https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article](https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article)
