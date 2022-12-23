@@ -173,7 +173,7 @@ Another interesting thing to note is the growth and fall of African American rep
 
 ## Sentiment Analysis
 
-
+> Is the language spoken in movies biased?
 
 To gain deeper insight into the language used in movies, we run experiments of [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) corpus, which is a collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/). We matched 27,329 subtitles from the corpus with the CMU dataset and extracted 74,518,995 tokens after lemmatization and stopword removal. We then split the corpus into 5 bins comprised of an equal number of tokens to compare the language across years.
 
