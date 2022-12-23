@@ -3,43 +3,27 @@ layout: page
 usemathjax: true
 ---
 
-## Introduction
-The movie industry has long been criticized for its lack of diversity both **on** and **off** screen. Representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films. This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and negatively impacts the creativity of movie making.
+# Overview
 
-## Data and Intial Analysis
+The movie industry has long been criticized for its lack of diversity both **on** and **off** screen. Despite numerous efforts to address this issue, the representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films. This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and perpetuates a narrow and limited view of the world.
+
+# Data and Intial Analysis
 In this project, we use a combination of different datasets:
  - [CMU Movie Summary Corpus](http://www.cs.cmu.edu/~ark/personas/) which contains over 40,000 movie plot summaries extracted from Wikipedia and also metadata such as characters, genre, release date information.
  - [Wikidata](https://www.wikidata.org/wiki/) from where we extracted additional movie metadata and extending the CMU Movie dataset.
  - [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) from which we were able to extract over 20 000 english subtitles and map to our existing data.
 - [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS) To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from *Federal Reserve Economic Data*. Since this inflation data goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century.
 
-## Research questions
-
-To start our analysis, we divided our reseach questions into two categories: **On** screen and **Off** screen where we will take a deeper look at the diversity in the movie industry.
-{% include services.html %}
-### Diversity Off screen
-
-> Is there a significant difference in number of movies directed by men vs women? And does the gender of lead actor or director impact the revenue of a movie?
-
-Throughout the history of the silver screen, not many talented women have been recognized for their work as directors in the film industry. Notably the first woman to have won an Oscar for directing is Kathryn Bigelow for her work on the war film "The Hurt Locker." This happened in 2010, 81 years after the creation of the [**Academy Award for Best Director**](https://www.oscars.org) and only four women were nominated before that.
-
-On the other hand one could argue that Academy Awards don’t represent a success of a movie and can be very arbitrary, even great Scorsese had to wait seven nomination before getting his Oscar. This is why we decided to measure the success of a movie by looking at the impact of the gender on the revenue.
-
-> Does diversity impact the financial success of a movie? 
-
 To give our readers a brief view of the movies we use, we plot the top 21 genres in the movie dataset we combined.
+
 <center>
 <iframe 
 frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_21_genre_movies.html">
 </iframe>
 </center>
 
+
 To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from **Federal Reserve Economic Data**[^1], specifically the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS). Since this inflation data records CPI from year 2022 and goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century. The adjustment is done by multiplying the inflation rate factor to the movie revenue.
-<center>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/cpi.html">
-</iframe>
-</center>
 
 The inflation rate multiplier for a year $$r_{year}$$ is calculcated as
 
@@ -54,8 +38,37 @@ The the movie revenue for each year is adjusted by multiplying the revenue by th
 </iframe>
 </center>
 
+# Our Focus
 
-### On screen
+To find out what it was like it the history of movie industy, we devised our reseach questions into two categories: **On** screen and **Off** screen where we will take a deeper look at the diversity in the movie industry.
+{% include services.html %}
+
+# Diversity Off Screen
+
+Throughout the history of the silver screen, not many talented women have been recognized for their work as directors in the film industry. Notably the first woman to have won an Oscar for directing is Kathryn Bigelow for her work on the war film "The Hurt Locker." This happened in 2010, 81 years after the creation of the [**Academy Award for Best Director**](https://www.oscars.org) and only four women were nominated before that.
+
+
+On the other hand one could argue that Academy Awards don’t represent a success of a movie and can be very arbitrary, even great Scorsese had to wait seven nomination before getting his Oscar. This is why we decided to measure the success of a movie by looking at the impact of the gender on the revenue.
+
+So a natural question to ask is
+
+> Does the gender of lead actor or director impact the revenue of a movie?
+
+Since for nearly all the data that we had, the gender was either male or female and that we do not have the data to determine whethever the gender was changed to another gender before the movie was released, we decided to base the gender diversity analysis on only male and female.
+
+Let's first check if there a significant difference in number of movies directed by men vs women
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_ratio.html">
+</iframe>
+</center>
+
+Only around 1/3 of the leading roles are occupied by women with the leading actors being a bit more balanced while nearly all the main directors and producers roles are being held by men. Fortunately, we can see a trend of the gender gap closing slowly. Our data is representative until 2012 after which we can see a change in the closing gap which is due to the low amount of data.
+
+
+
+
+
 
 ### Are the Hollywood stars just like us?
 
@@ -71,6 +84,8 @@ First of all the Latino population in the United States is the most quickly grow
 At the same time the share of Hispanic characters has been stagnating between 3% and 5% since 1980s. While this can be partially explained by Latino population’s heavy consumption of South American media this doesn’t change the fact that, there is still much work to be done as when we see a lack of Latino characters on screen, it sends the message that their stories and experiences are not important or valued.
 
 Another interesting thing to note is the growth and fall of African American representation which corresponds to the rise and fall of Blaxploitation films. These were a genre of movies, that isn’t very well know in Europe, that emerged in the 1970s and initially aimed at a  African American audience. These films featured a mostly African American cast and often depicted themes of crime, violence, and empowerment, but they were also controversial in their portrayal of African American culture and were often accused of perpetuating negative stereotypes.
+
+> Does diversity impact the financial success of a movie? 
 
 <center>
 <iframe 
@@ -112,15 +127,11 @@ TODO: Height commentary
 ## Diversity
 
 ### Gender
-An important aspect of diversity is of course the gender. Since for nearly all the data that we had, the gender was either male or female and that we do not have the data to determine whethever the gender was changed to another gender before the movie was released, we decided to base the gender diversity analysis on only male and female.
 
-<center>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_ratio.html">
-</iframe>
-</center>
 
-Only around 1/3 of the leading roles are occupied by females with the leading actors being a bit more balanced while nearly all the main directors and producers roles are being held by males. Fortunately, we can see a trend of the gender gap closing slowly. Our data is representative until 2012 after which we can see a change in the closing gap which is due to the low amount of data.
+
+
+
 
 <center>
 <iframe 
@@ -142,9 +153,7 @@ Here we actually seem to see the opposite as above. Instead of the gender gap cl
 
 ### Age
 
-Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. A common 
-
-A movie that represents a diverse range of ages may be more relatable and resonant for a wider range of viewers. Additionally, a diverse cast can help to attract a diverse audience, which can also contribute to the movie's financial success.
+Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. Some may be thinking that a film representing a diverse age group may be relatable and resonate with a larger audience thus leading to a higher chance of success on the market. In this part we will try to see if this is a myth or 
 
 In this part, we will try to unravel the mistery in our data to see if a more diversed cast in terms of age can ripple through more audiences thus generating higher movie box revenue.
 <center>
@@ -192,27 +201,17 @@ As for the ethnicity-related keywords, the decrease in the sentiment of the term
 Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi and Lei Lei](https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article) we decided to study how semantic use change specifically when it comes to Hollywood movies. As the initial study was done on a collection of English language books, which is quite different from the daily spoken familiar language we often see in movies and we wanted to see what are the potentiall differences in semantics in these two areas.
 
 
-Inspired by 
-<center>
-<figure>
-<img src="assets/img/trace/gay.svg" style="width:80%">
-<figcaption><em>Figure 1.</em> Placeholder caption.</figcaption>
-</figure>
-</center>
+## Plots (title to be changed)
 
-<center>
-<figure>
-<img src="assets/img/trace/man.svg" style="width:80%">
-<figcaption><em>Figure 2.</em> Placeholder caption.</figcaption>
-</figure>
-</center>
-
-<center>
-<figure>
-<img src="assets/img/trace/woman.svg" style="width:80%">
-<figcaption><em>Figure 3.</em> Placeholder caption.</figcaption>
-</figure>
-</center>
+<div style="text-align:center; font-style:italic;">Scroll to left for more picture</div>
+<div class="scroll-container">
+  <div class="gridscroll">
+    <!-- PLACE YOUR IMG URL HERE -->
+      <img src="assets/img/trace/gay.svg"/>
+      <img src="assets/img/trace/man.svg"/>
+      <img src="assets/img/trace/woman.svg"/>
+  </div>
+</div>
 
 ### Word Cloud
 {% include portfolio_grid.html %}

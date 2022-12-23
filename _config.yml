@@ -17,7 +17,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://imdbmi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Over the Rainbow 🌈
+title      : One Hundred Years of Cinema
 email      : your-email@example.com #this is also the email contact forms will go to
 description: "The History of Diversity in Cinema"
 author     : Your Name

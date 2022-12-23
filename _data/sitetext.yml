@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: The History of Diversity in Cinema
-    text: Over the Rainbow 🌈
+    text: One Hundred Years of Cinema
     button: Start Reading
     buttonlink: "#background"
 
@@ -21,18 +21,17 @@ en: &DEFAULT_EN
     text: ""
     section: quesitons
     list:
+      - title: "Diversity Off Screen"
+        desc: "
+        Director, Casts, Producers... The people who make the magic happen
+        "
+        icon: fas fa-users
       - title: "Diversity On Screen"
         desc: "
-        - adfaf a
-
-        - dfas fas
-
-        - fdsaf
+        Gender, Race, Height... Everything you see on screen
         "
         icon: fas fa-film #find more at https://fontawesome.com/icons
-      - title: "Diversity Off Screen"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-users
+      
       
 
   portfolio:
