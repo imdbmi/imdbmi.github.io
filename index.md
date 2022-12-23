@@ -118,6 +118,10 @@ In this section, we will study the
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/sentiment_diversity.html">
 </iframe>
 </center>
+1. The first thing to notice in the above plot is that for some of the entries the 95% confidence interval bars are quite large. The main reason behind this is having too few samples for those keywords in the respective year intervals. 
+2. The other feature is that all of the average sentiments are negative, which is expected given the plots of distribution of sentiment above, showing `negative` sentiments are more than `negative` sentiments.
+3. We observe that except for two cases `man` has the highest sentiment scores across years. It is followed by `women`, which has slightly worse sentiment than `man`. These two keywords have stable mean sentiment scores.
+4. All of the remaining keywords carries more negative sentiments than `man` and `woman`, except for two cases. Furthermore, sentiments for `gay` and `queer` has attained lower values as the passes.
 
 <center>
 <iframe 
