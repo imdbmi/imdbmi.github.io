@@ -44,17 +44,29 @@ The the movie revenue for each year is adjusted by multiplying the revenue by th
 
 ### On screen
 
-> Using the ethnicity, gender, height and age in CMU dataset we want to analyze how comparable are movies with the average population of its countries and how did it change over time.
+### Ethnicity
 
-When comparing the US Census data and CMU Characters by ethnicity we notice a striking difference when it comes to Hispanic representation.  While there has been some progress in terms of Latino representation in Hollywood, there is still much work to be done in order to achieve true equality and authenticity in the industry, especially as the Latino population is the fastest growing population group in the US.
+Using the ethnicity, gender, height and age in CMU dataset we want to analyze how comparable are movies with the average population of its countries and how did it change over time.
+We notice something interesting: there is a striking difference when it comes to Hispanic representation. 
 
-When we see a lack of Latino characters on screen, it sends the message that their stories and experiences are not important or valued. This lack of representation can also perpetuate harmful stereotypes and contribute to a culture of marginalization and discrimination.
+First of all the Latino population in the United States is the most quickly growing population group these past few decades. According to the United States Census Bureau, the Latino population in the U.S. grew from 3.2 million in 1950 to 62 million in 2020, with an increase of nearly 70% over the past 20 years.
 
-Blaxploitation films were a genre of movies that emerged in the 1970s and were aimed at a primarily African American audience. These films often featured African American actors in lead roles and often depicted themes of crime, violence, and empowerment.
+At the same time the share of Hispanic characters has been stagnating between 3% and 5% since 1980s. While this can be partially explained by Latino population’s heavy consumption of South American media this doesn’t change the fact that, there is still much work to be done as when we see a lack of Latino characters on screen, it sends the message that their stories and experiences are not important or valued.
 
-Overall, blaxploitation films were an important part of Hollywood history, but they were also controversial and limited in their portrayal of African American culture. While they may have provided some representation for African American actors and audiences, they also perpetuated negative stereotypes and did not fully capture the complexity and diversity of African American experiences.
+Another interesting thing to note is the growth and fall of African American representation which corresponds to the rise and fall of Blaxploitation films. These were a genre of movies, that isn’t very well know in Europe, that emerged in the 1970s and initially aimed at a  African American audience. These films featured a mostly African American cast and often depicted themes of crime, violence, and empowerment, but they were also controversial in their portrayal of African American culture and were often accused of perpetuating negative stereotypes.
 
-> Lingustic analysis of LGBT characters: How did the terms and tones used changed when talking about a LGBT character? And how did positive LGBT potrayal change over time?
+(Because there aren't comprehensive data about different ethnicities we use United States Census Bureau data on races)
+
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/US_Census_Percentage.html">
+</iframe>
+</center>
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/US_Census_Percentage.html">
+</iframe>
+</center>
 
 ---TODO---
 
