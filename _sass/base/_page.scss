@@ -2,6 +2,7 @@
 body {
   overflow-x: hidden;
   @include body-font;
+  font-size: 17px;
 }
 
 p {
@@ -72,10 +73,11 @@ img::-moz-selection {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote{
-  font-size: 1.1em;
-  width:70%;
-  margin:50px auto;
-  font-family:Open Sans;
+  font-size: 1.2em;
+  width:80%;
+  margin:40px auto;
+  font-weight: 500;
+  // font-family:Open Sans;
   font-style:italic;
   color: #555555;
   padding:1.2em 30px 1.2em 75px;
@@ -91,12 +93,19 @@ blockquote::before{
   color:#78C0A8;
   font-size:4em;
   position: absolute;
-  left: 10px;
+  left: 20px;
   top:-10px;
 }
 
 blockquote::after{
-  content: '';
+  font-family:Arial;
+  content: "\201D";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  right: 20px;
+  bottom:-40px;
+  
 }
 
 blockquote span{

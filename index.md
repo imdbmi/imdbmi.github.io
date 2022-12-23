@@ -11,18 +11,19 @@ This lack of diversity not only perpetuates harmful stereotypes and biases, but 
 ## Research questions
 Our reseach questions can be divided into two parts: **on** screen and **off** screen where we will take a deeper look at the diversity in the movie industry.
 ### Off screen
-#### What is the evolution of the gender Gap in movies? Is there a significant difference in number of movies directed by men vs women? And does the gender of lead actor or director impact the revenue of a movie?
+> What is the evolution of the gender Gap in movies? Is there a significant difference in number of movies directed by men vs women? And does the gender of lead actor or director impact the revenue of a movie?
 
 Throughout the history of the silver screen, not many talented women have been recognized for their work as directors in the film industry. Notably the first woman to have won an Oscar for directing is Kathryn Bigelow for her work on the war film "The Hurt Locker." This happened in 2010, 81 years after the creation of the [**Academy Award for Best Director**](https://www.oscars.org) and only four women were nominated before that.
 
 On the other hand one could argue that Academy Awards don’t represent a success of a movie and can be very arbitrary, even great Scorsese had to wait seven nomination before getting his Oscar. This is why we decided to measure the success of a movie by looking at the impact of the gender on the revenue.
 
-#### Does diversity impact the financial success of a movie? Using revenue we want to analyze if the most successful movies are more or less diverse than the average.
+> Does diversity impact the financial success of a movie? Using revenue we want to analyze if the most successful movies are more or less diverse than the average.
 
 To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from Federal Reserve Economic Data, specifically the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS). Since this inflation data goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century. 
 
 ### On screen
-#### Using the ethnicity, gender, height and age in CMU dataset we want to analyze how comparable are movies with the average population of its countries and how did it change over time.
+> Using the ethnicity, gender, height and age in CMU dataset we want to analyze how comparable are movies with the average population of its countries and how did it change over time.
+
 When comparing the US Census data and CMU Characters by ethnicity we notice a striking difference when it comes to Hispanic representation.  While there has been some progress in terms of Latino representation in Hollywood, there is still much work to be done in order to achieve true equality and authenticity in the industry, especially as the Latino population is the fastest growing population group in the US.
 
 When we see a lack of Latino characters on screen, it sends the message that their stories and experiences are not important or valued. This lack of representation can also perpetuate harmful stereotypes and contribute to a culture of marginalization and discrimination.
@@ -31,7 +32,7 @@ Blaxploitation films were a genre of movies that emerged in the 1970s and were a
 
 Overall, blaxploitation films were an important part of Hollywood history, but they were also controversial and limited in their portrayal of African American culture. While they may have provided some representation for African American actors and audiences, they also perpetuated negative stereotypes and did not fully capture the complexity and diversity of African American experiences.
 
-#### Lingustic analysis of LGBT characters: How did the terms and tones used changed when talking about a LGBT character? And how did positive LGBT potrayal change over time?
+> Lingustic analysis of LGBT characters: How did the terms and tones used changed when talking about a LGBT character? And how did positive LGBT potrayal change over time?
 
 ---TODO---
 
@@ -46,7 +47,7 @@ In this project, we use a combination of different datasets:
 
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_21_genre_movies.html">
+frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_21_genre_movies.html">
 </iframe>
 </center>
 
