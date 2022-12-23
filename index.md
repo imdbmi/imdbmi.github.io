@@ -31,7 +31,7 @@ To study the revenue we first need to adjust the revenue according to the inflat
 The inflation rate multiplier for a year $$r_{year}$$ is calculcated as
 
 $$
-r_{year} = \frac{CPI_{\text{now}}}{CPI_{year}}
+r_{year} = \frac{CPI_{\text{year 2020}}}{CPI_{year}}
 $$
 
 The the movie revenue for each year is adjusted by multiplying the revenue by this multiplier, and the revenue after ajustment is shown in the figure below
