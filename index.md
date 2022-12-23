@@ -189,7 +189,7 @@ As for the ethnicity-related keywords, the decrease in the sentiment of the term
 
 ## The evolution of words
 
-Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi and Lei Lei] (https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article) we decided to study how semantic use change specifically when it comes to Hollywood movies.
+Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi and Lei Lei](https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article) we decided to study how semantic use change specifically when it comes to Hollywood movies.
 
 
 Inspired by 
