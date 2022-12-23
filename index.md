@@ -9,7 +9,9 @@ The movie industry has long been criticized for its lack of diversity both **on*
 This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and perpetuates a narrow and limited view of the world. It is important for the movie industry to prioritize diversity in order to accurately and fairly represent the diverse experiences and perspectives of people from all walks of life.
 
 ## Research questions
+
 Our reseach questions can be divided into two parts: **on** screen and **off** screen where we will take a deeper look at the diversity in the movie industry.
+{% include services.html %}
 ### Off screen
 > What is the evolution of the gender Gap in movies? Is there a significant difference in number of movies directed by men vs women? And does the gender of lead actor or director impact the revenue of a movie?
 
