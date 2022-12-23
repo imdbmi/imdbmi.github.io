@@ -209,6 +209,10 @@ Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi a
 
 As expected we see that he word "gay" has undergone significant semantic change over time. Originally, the word "gay" meant "happy" or "carefree," and it was used as an adjective to describe things that were joyful or bright. However, in the 20th century, the word began to be used more frequently as a noun to refer to people who are attracted to members of the same sex. This can be clearly seen from its usage in movie subtitles.
 
+When it comes to the usage of the word woman, we see that initially it was heavily connected to familly and children and over time it got much more sexualised. If this is connected to the sexual liberation or sexualisation is left upon the reader to decide.
+
+On the other hand the usage of the word man didn't change as significantly, only loosing its connection to soldier over time.
+
 
 ### Word Cloud
 In this part we decided to look at what are the most popular adjectives describing gender, ethnicity and sexuality.
