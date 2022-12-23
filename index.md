@@ -90,6 +90,9 @@ Here we actually seem to see the opposite as above. Instead of the gender gap cl
 
 
 ## Age
+
+Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. Some may be thinking that a film representing a diverse age group may be relatable and resonate with a larger audience thus leading to a higher chance of success on the market. So the *myth* we want to find out is 
+
 > Would a more diverse cast in terms of age help achieve higher box office revenues?
 
 In this part we will try to see if this is just a myth or another secret key to achieve success on the silver screen.
@@ -110,16 +113,17 @@ Moreover, we also visualize the relationship between these two variables and the
   </div>
 </div>
 
+# Diversity On Screen
+
 ## Ethnicity
 
 > Are the Hollywood stars just like us?
 
-TLDR: No, they are taller and less ethnically diverse compared to the average American.
+<sup>TLDR: No, they are taller and less ethnically diverse compared to the average American.</sup>
 
 Using the ethnicity, gender, height and age in CMU dataset we want to analyze how comparable are movies with the average population of its countries and how did it change over time.
 
 Lets look at the change in USA population over time:
-
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/US_Census_Percentage.html ">
@@ -130,7 +134,6 @@ Lets look at the change in USA population over time:
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/US_Census.html ">
 </iframe>
 </center>
-
 
 First of all the Latino population in the United States is the most quickly growing population group these past few decades. According to the United States Census Bureau, the Latino population in the U.S. grew from 3.2 million in 1950 to 62 million in 2020, with an increase of nearly 70% over the past 20 years.
 
@@ -151,8 +154,9 @@ The share of Hispanic characters has been stagnating between 3% and 5% since 198
 
 Another interesting thing to note is the growth and fall of African American representation which corresponds to the rise and fall of Blaxploitation films. These were a genre of movies, that isn’t very well know in Europe, that emerged in the 1970s and initially aimed at a  African American audience. These films featured a mostly African American cast and often depicted themes of crime, violence, and empowerment, but they were also controversial in their portrayal of African American culture and were often accused of perpetuating negative stereotypes.
 
- The CMU dataset also contains height, and there is some evidence that height can be correlated with certain forms of success, particularly in fields where physical appearance is important or where height is directly this is why we decided to compare the height of Hollywood actors and the US population.
+ The CMU dataset also contains height, and there is some evidence that height can be correlated with certain forms of success, particularly in fields where physical appearance is important or where height is directly this is why we decided to compare the height of Hollywood actors and the US population[^3].
 
+<center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/USA_Height.html ">
 </iframe>
@@ -167,16 +171,10 @@ Another interesting thing to note is the growth and fall of African American rep
 
 
 
-<!-- <blockquote>
-  But... why do things work the way they do?
-</blockquote> -->
-
-
-Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. Some may be thinking that a film representing a diverse age group may be relatable and resonate with a larger audience thus leading to a higher chance of success on the market. So the *myth* we want to find out is 
-
-
-# Diversity On Screen
 ## Sentiment Analysis
+
+
+
 To gain deeper insight into the language used in movies, we run experiments of [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) corpus, which is a collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/). We matched 27,329 subtitles from the corpus with the CMU dataset and extracted 74,518,995 tokens after lemmatization and stopword removal. We then split the corpus into 5 bins comprised of an equal number of tokens to compare the language across years.
 
 For each keyword, we extracted both fix-sized context windows and dialogue sentences from subtitles and predicted their sentiment class with a transformer-based sentiment analyzer, [roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest).
@@ -239,3 +237,5 @@ You can click on each image to look at the words in more detail.
 
 [^1]: **What is FRED?** [https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred](https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/).
 [^2]: **The evolution of LGBT labelling words Yaqian Shi and Lei Lei** [https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article](https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article)
+
+[^3]: **Human Height by Max Roser, Cameron Appel and Hannah Ritchie** [https://ourworldindata.org/human-height](https://ourworldindata.org/human-height)
