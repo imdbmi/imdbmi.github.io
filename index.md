@@ -19,11 +19,33 @@ Throughout the history of the silver screen, not many talented women have been r
 
 On the other hand one could argue that Academy Awards don’t represent a success of a movie and can be very arbitrary, even great Scorsese had to wait seven nomination before getting his Oscar. This is why we decided to measure the success of a movie by looking at the impact of the gender on the revenue.
 
-> Does diversity impact the financial success of a movie? Using revenue we want to analyze if the most successful movies are more or less diverse than the average.
+> Does diversity impact the financial success of a movie? 
 
-To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from Federal Reserve Economic Data, specifically the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS). Since this inflation data goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century. 
+To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from **Federal Reserve Economic Data**[^1], specifically the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS). Since this inflation data goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century. The adjustment is done by multiplying the inflation rate factor to the movie revenue.
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/cpi.html">
+</iframe>
+</center>
+
+
+
+The inflation rate multiplier for a year $$r_{year}$$ is calculcated as
+
+$$
+r_{year} = \frac{CPI_{\text{now}}}{CPI_{year}}
+$$
+
+The the movie revenue for each year is adjusted by multiplying the revenue by this multiplier, and the revenue after ajustment is shown in the figure below
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/adjusted_revenue.html">
+</iframe>
+</center>
+
 
 ### On screen
+
 > Using the ethnicity, gender, height and age in CMU dataset we want to analyze how comparable are movies with the average population of its countries and how did it change over time.
 
 When comparing the US Census data and CMU Characters by ethnicity we notice a striking difference when it comes to Hispanic representation.  While there has been some progress in terms of Latino representation in Hollywood, there is still much work to be done in order to achieve true equality and authenticity in the industry, especially as the Latino population is the fastest growing population group in the US.
@@ -53,17 +75,6 @@ frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height
 </iframe>
 </center>
 
-<center>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/cpi.html">
-</iframe>
-</center>
-
-<center>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/adjusted_revenue.html">
-</iframe>
-</center>
 
 
 <!-- <blockquote>
@@ -129,6 +140,4 @@ In this section, we will study the
 
 ## References
 
-[^1]: Greenpeace, *Bees in Decline*, 2013 [http://sos-bees.org/wp-content/uploads/2014/04/BeesInDecline.pdf](http://sos-bees.org/wp-content/uploads/2014/04/BeesInDecline.pdf)
-
-[^2]: [The Balance, _Colony Collapse Disorder and Its Impact on the Economy_, 2019](https://www.thebalance.com/bee-colony-collapse-disorder-facts-and-economic-impact-3305815)
+[^1]: **What is FRED?** [https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred](https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/).

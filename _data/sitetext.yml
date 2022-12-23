@@ -22,7 +22,13 @@ en: &DEFAULT_EN
     section: quesitons
     list:
       - title: "Diversity On Screen"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "
+        - adfaf a
+
+        - dfas fas
+        
+        - fdsaf
+        "
         icon: fas fa-film #find more at https://fontawesome.com/icons
       - title: "Diversity Off Screen"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
