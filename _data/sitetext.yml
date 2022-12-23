@@ -99,12 +99,12 @@ en: &DEFAULT_EN
       - title: "EPFL"
         url: https://epfl.ch/en
         logo: assets/img/clients/epfl.svg
-      - title: "CMU Movie Summary Corpus"
-        url: http://www.cs.cmu.edu/~ark/personas/
-        logo: assets/img/clients/cmu.png
       - title: "OpenSubtitles.org"
         url: https://opus.nlpl.eu/OpenSubtitles-v2018.php
         logo: assets/img/clients/opensub.gif
+      - title: "CMU Movie Summary Corpus"
+        url: http://www.cs.cmu.edu/~ark/personas/
+        logo: assets/img/clients/cmu.png
     body: "
     We thank ADA team for the amazing lectures and their continuous support.
     "

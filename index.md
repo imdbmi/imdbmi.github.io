@@ -66,6 +66,7 @@ Let's first check if there a significant difference in number of movies directed
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_ratio.html">
 </iframe>
+<figcaption><em>Figure 3.</em> Gender distribution in percentage over time.</figcaption>
 </center>
 
 Only around 1/3 of the leading roles are occupied by women and nearly all the main directors and producers roles are being held by men. Fortunately, we can see a trend of the gender gap closing slowly.
@@ -73,6 +74,7 @@ Only around 1/3 of the leading roles are occupied by women and nearly all the ma
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_per_genre_over_time5y.html">
 </iframe>
+<figcaption><em>Figure 4.</em> Gender distribution in percentage by genres.</figcaption>
 </center>
 
 Of course, we cannot generalize this for every genre since one might argue that in some genres, such as action and adventure, there may be a greater proportion of male leading roles, while in others, such as romantic comedy and drama, there may be a greater proportion of female leading roles. And indeed, we see that e.g. the gender proportions are different between romantic and action films. In general, we can see again, that the gender gap is closing, however, they are still mostly dominated by males!
@@ -83,6 +85,7 @@ We now want to know if there is a relation between the gender and the revenue of
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_ratio_box_office.html">
 </iframe>
+<figcaption><em>Figure 5.</em> Comparison of gender distribution in percentage with the box office revenue.</figcaption>
 </center>
 
 Here we actually seem to see the opposite as above. Instead of the gender gap closing, it now gets bigger with increasing box office value. One might make the assumption, that movies with lead actors might actually by more successful wrt. to the box office value than movies with leading actresses. However, after performing linear regression and hypothesis testing, we can safely say that we fail to reject the null hypothesis that whethever a cast is diverse or not has no effect on the box office value which is also validated by the confidence intervals overlapping.
@@ -112,6 +115,9 @@ Moreover, we also visualize the relationship between these two variables and the
 </iframe>
   </div>
 </div>
+<center>
+<figcaption><em>Figure 6.</em> Revenue vs Cast Age.</figcaption></center>
+
 
 # Diversity On Screen
 
@@ -232,6 +238,10 @@ Here we can see the frequency of stereotypes, remarking that the most popular ad
 You can click on each image to look at the words in more detail.
 {% include portfolio_grid.html %}
 
+
+# Conclusion
+
+Despite the glitz and glamour of the film industry, it has long struggled with a lack of diversity that extends beyond the silver screen. Behind the scenes, marginalized groups have been underrepresented or completely absent from key roles as directors, producers, and more. On screen, the stories and perspectives of these groups have also been overlooked or distorted, perpetuating harmful stereotypes and biases. However, in recent years, a movement has emerged to increase diversity and inclusivity in the industry. While progress has been made, the road to true representation is long and winding. To fully embrace the uniqueness and diversity of the human experience, the film industry must continue to push for greater representation and inclusivity in all aspects of movie-making. Only then will the stories of all people be told and celebrated on the big screen.
 
 ## References
 
