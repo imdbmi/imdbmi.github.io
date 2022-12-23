@@ -136,18 +136,12 @@ Another interesting thing to note is the growth and fall of African American rep
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/USA_Height.html ">
 </iframe>
 </center>
- Comparing these two we see that for almost one hundred years we analyse whe average height has been around 180cm for men and 165cm for women. These values are quite close to the current population means. But in 30's and 40's and actor was on average 10cm taller than an average American man.
+ Comparing these two we see that for almost one hundred years we analyse whe average height was around 180cm for men and 165cm. These values are quite close to the current population means. But in 30's and 40's and actor was on average 10cm taller than an average American man.
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/Hollywood_Height.html ">
 </iframe>
 </center>
-
-
-
-
-
----TODO---
 
 
 
@@ -164,15 +158,23 @@ Let's now turn our focus to another simple yet widely used metric to determine t
 
 > Would a more diverse cast in terms of age help achieve higher box office revenues?
 
+In this part we will try to see if this is just a myth or another secret key to achieve success on the silver screen.
 
- In this part we will try to see if this is just a myth or another secret key to achieve success on the silver screen.
+To begin with let's define two metrics that reflect the diversity in age of the cast members: mean age and max difference in age. And then we performed a regression analysis to study the correlation between `mean cast age`, `max cast age`, and the movie box revenue. And we study the movie for every ten years and anylze them in their own genere. The result didn't show much 
 
-To begin with let's define some metrics that could 
-<center>
-<iframe 
+Moreover, we also visualize the relationship between 
+<div style="text-align:center; font-style:italic;"><sup><b>Scroll to view the visualization for mean cast age</b></sup></div>
+<div class="scroll-container">
+  <div class="gridscroll">
+    <!-- PLACE YOUR IMG URL HERE -->
+      <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_cast_age_diff.html">
 </iframe>
-</center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_mean_cast_age.html">
+</iframe>
+  </div>
+</div>
 
 ### Sentiment Analysis
 To gain deeper insight into the language used in movies, we run experiments of [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) corpus, which is a collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/). We matched 27,329 subtitles from the corpus with the CMU dataset and extracted 74,518,995 tokens after lemmatization and stopword removal. We then split the corpus into 5 bins comprised of an equal number of tokens to compare the language across years.
