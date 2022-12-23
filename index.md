@@ -210,6 +210,10 @@ Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi a
 </div>
 
 ### Word Cloud
+In this part we decided to look at what are the most popular adjectives describing gender, ethnicity and sexuality.
+Here we can see the frequency of stereotypes, remarking that the most popular adjectives are heavily stereotypical taling about dangerous Mexicans, fat Indians and stunted bisexuals.
+
+You can click on each image to look at the words in more detail.
 {% include portfolio_grid.html %}
 
 
