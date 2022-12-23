@@ -96,17 +96,17 @@ frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height
 </center> -->
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450" src="plots/gender_ratio.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_ratio.html">
 </iframe>
 </center>
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450" src="plots/gender_ratio_box_office.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_ratio_box_office.html">
 </iframe>
 </center>
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/gender_per_genre_over_time5y.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_per_genre_over_time5y.html">
 </iframe>
 </center>
 
@@ -117,12 +117,12 @@ A movie that represents a diverse range of ages may be more relatable and resona
 In this section, we will study the 
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/revenue_vs_mean_cast_age.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_mean_cast_age.html">
 </iframe>
 </center>
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/revenue_vs_cast_age_diff.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_cast_age_diff.html">
 </iframe>
 </center>
 
@@ -130,7 +130,7 @@ In this section, we will study the
 
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/sentiment_diversity.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/sentiment_diversity.html">
 </iframe>
 </center>
 1. The first thing to notice in the above plot is that for some of the entries the 95% confidence interval bars are quite large. The main reason behind this is having too few samples for those keywords in the respective year intervals. 
@@ -140,7 +140,7 @@ In this section, we will study the
 
 <center>
 <iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plots/sentiment_ethnicity.html">
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/sentiment_ethnicity.html">
 </iframe>
 </center>
 
