@@ -89,27 +89,33 @@ frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height
 ## Diversity
 
 ### Gender
+An important aspect of diversity is of course the gender. Since for nearly all the data that we had, the gender was either male or female and that we do not have the data to determine whethever the gender was changed to another gender before the movie was released, we decided to base the gender diversity analysis on only male and female.
 
-<!-- <center>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450" src="plots/gender_count.html">
-</iframe>
-</center> -->
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_ratio.html">
 </iframe>
 </center>
-<center>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_ratio_box_office.html">
-</iframe>
-</center>
+
+Only around 1/3 of the leading roles are occupied by females with the leading actors being a bit more balanced while nearly all the main directors and producers roles are being held by males. Fortunately, we can see a trend of the gender gap closing slowly. Our data is representative until 2012 after which we can see a change in the closing gap which is due to the low amount of data.
+
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_per_genre_over_time5y.html">
 </iframe>
 </center>
+
+Of course, we cannot generalize this for every genre since one might argue that in some genres, such as action and adventure, there may be a greater proportion of male leading roles, while in others, such as romantic comedy and drama, there may be a greater proportion of female leading roles. And indeed, we see that e.g. the gender proportions are different between romantic and action films. In general, we can see again, that the gender gap is closing, however, they are still mostly dominated by males!
+
+We now want to know if there is a relation between the gender and the revenue of movies.
+
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_ratio_box_office.html">
+</iframe>
+</center>
+
+Here we actually seem to see the opposite as above. Instead of the gender gap closing, it now gets bigger with increasing box office value. One might make the assumption, that movies dominated by male in leading positions might actually by more successful wrt. to the box office value than movies with diverse leading roles. However, after performing linear regression and hypothesis testing, we can safely say that we fail to reject the null hypothesis that whethever a cast is diverse or not has no effect on the box office value which is also validated by the confidence intervals overlapping.
 
 ### Age
 
