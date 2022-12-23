@@ -63,8 +63,7 @@ Let's first check if there a significant difference in number of movies directed
 </iframe>
 </center>
 
-Only around 1/3 of the leading roles are occupied by women with the leading actors being a bit more balanced while nearly all the main directors and producers roles are being held by men. Fortunately, we can see a trend of the gender gap closing slowly. Our data is representative until 2012 after which we can see a change in the closing gap which is due to the low amount of data.
-
+Only around 1/3 of the leading roles are occupied by women and nearly all the main directors and producers roles are being held by men. Fortunately, we can see a trend of the gender gap closing slowly.
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/gender_per_genre_over_time5y.html">
@@ -81,7 +80,7 @@ We now want to know if there is a relation between the gender and the revenue of
 </iframe>
 </center>
 
-Here we actually seem to see the opposite as above. Instead of the gender gap closing, it now gets bigger with increasing box office value. One might make the assumption, that movies dominated by male in leading positions might actually by more successful wrt. to the box office value than movies with diverse leading roles. However, after performing linear regression and hypothesis testing, we can safely say that we fail to reject the null hypothesis that whethever a cast is diverse or not has no effect on the box office value which is also validated by the confidence intervals overlapping.
+Here we actually seem to see the opposite as above. Instead of the gender gap closing, it now gets bigger with increasing box office value. One might make the assumption, that movies with lead actors might actually by more successful wrt. to the box office value than movies with leading actresses. However, after performing linear regression and hypothesis testing, we can safely say that we fail to reject the null hypothesis that whethever a cast is diverse or not has no effect on the box office value which is also validated by the confidence intervals overlapping.
 
 
 
@@ -94,15 +93,8 @@ TLDR: No, they are taller and less ethnically diverse compared to the average Am
 ### Ethnicity
 
 Using the ethnicity, gender, height and age in CMU dataset we want to analyze how comparable are movies with the average population of its countries and how did it change over time.
-We notice something interesting: there is a striking difference when it comes to Hispanic representation. 
 
-First of all the Latino population in the United States is the most quickly growing population group these past few decades. According to the United States Census Bureau, the Latino population in the U.S. grew from 3.2 million in 1950 to 62 million in 2020, with an increase of nearly 70% over the past 20 years.
-
-At the same time the share of Hispanic characters has been stagnating between 3% and 5% since 1980s. While this can be partially explained by Latino population’s heavy consumption of South American media this doesn’t change the fact that, there is still much work to be done as when we see a lack of Latino characters on screen, it sends the message that their stories and experiences are not important or valued.
-
-Another interesting thing to note is the growth and fall of African American representation which corresponds to the rise and fall of Blaxploitation films. These were a genre of movies, that isn’t very well know in Europe, that emerged in the 1970s and initially aimed at a  African American audience. These films featured a mostly African American cast and often depicted themes of crime, violence, and empowerment, but they were also controversial in their portrayal of African American culture and were often accused of perpetuating negative stereotypes.
-
-> Does diversity impact the financial success of a movie? 
+Lets look at the change in USA population over time:
 
 <center>
 <iframe 
@@ -115,19 +107,41 @@ Another interesting thing to note is the growth and fall of African American rep
 </iframe>
 </center>
 <center>
+
+
+First of all the Latino population in the United States is the most quickly growing population group these past few decades. According to the United States Census Bureau, the Latino population in the U.S. grew from 3.2 million in 1950 to 62 million in 2020, with an increase of nearly 70% over the past 20 years.
+
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/movie_chars_race.html ">
+</iframe>
+</center>
+<center>
+<iframe 
+    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/movie_chars_race_count.html ">
+</iframe>
+</center>
+<center>
+
+But looking at the diversity of movie characters, we notice something interesting: there is a striking difference when it comes to Hispanic representation. 
+
+The share of Hispanic characters has been stagnating between 3% and 5% since 1980s. While this can be partially explained by Latino population’s heavy consumption of South American media this doesn’t change the fact that, there is still much work to be done as when we see a lack of Latino characters on screen, it sends the message that their stories and experiences are not important or valued.
+
+Another interesting thing to note is the growth and fall of African American representation which corresponds to the rise and fall of Blaxploitation films. These were a genre of movies, that isn’t very well know in Europe, that emerged in the 1970s and initially aimed at a  African American audience. These films featured a mostly African American cast and often depicted themes of crime, violence, and empowerment, but they were also controversial in their portrayal of African American culture and were often accused of perpetuating negative stereotypes.
+
+ The CMU dataset also contains height, and there is some evidence that height can be correlated with certain forms of success, particularly in fields where physical appearance is important or where height is directly this is why we decided to compare the height of Hollywood actors and the US population.
+
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/USA_Height.html ">
 </iframe>
 </center>
+ Comparing these two we see that for almost one hundred years we analyse whe average height was around 180cm for men and 165cm. These values are quite close to the current population means. But in 30's and 40's and actor was on average 10cm taller than an average American man.
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/Hollywood_Height.html ">
 </iframe>
 </center>
 
-TODO: Height commentary
-
-(As there aren't comprehensive data about different ethnicities we use United States Census Bureau data on races)
 
 
 
