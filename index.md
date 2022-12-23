@@ -194,10 +194,8 @@ As for the ethnicity-related keywords, the decrease in the sentiment of the term
 
 ## The evolution of words
 
-Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi and Lei Lei](https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article) we decided to study how semantic use change specifically when it comes to Hollywood movies. As the initial study was done on a collection of English language books, which is quite different from the daily spoken familiar language we often see in movies and we wanted to see what are the potentiall differences in semantics in these two areas.
+Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi and Lei Lei](https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article) we decided to study how semantic use change specifically when it comes to Hollywood movies. As the initial study was done on a collection of English language books, which is quite different from the daily spoken familiar language we often see in movies and we wanted to see what are the potentiall differences in semantics between these two.
 
-
-## Plots (title to be changed)
 
 <div style="text-align:center; font-style:italic;">Scroll to left for more picture</div>
 <div class="scroll-container">
@@ -208,6 +206,9 @@ Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi a
       <img src="assets/img/trace/woman.svg"/>
   </div>
 </div>
+
+As expected we see that he word "gay" has undergone significant semantic change over time. Originally, the word "gay" meant "happy" or "carefree," and it was used as an adjective to describe things that were joyful or bright. However, in the 20th century, the word began to be used more frequently as a noun to refer to people who are attracted to members of the same sex. This can be clearly seen from its usage in movie subtitles.
+
 
 ### Word Cloud
 In this part we decided to look at what are the most popular adjectives describing gender, ethnicity and sexuality.
