@@ -130,18 +130,28 @@ Moreover, we also visualize the relationship between these two variables and the
 Using the ethnicity, gender, height and age in CMU dataset we want to analyze how comparable are movies with the average population of its countries and how did it change over time.
 
 Lets look at the change in USA population over time:
-<center>
-<iframe 
+
+<div style="text-align:center; font-style:italic;"><sup><b>Scroll to view both visualizations.</b></sup></div>
+<div class="scroll-container">
+  <div class="gridscroll">
+    <!-- PLACE YOUR IMG URL HERE -->
+      <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/US_Census_Percentage.html ">
 </iframe>
-</center>
-<center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/US_Census.html ">
 </iframe>
-</center>
+  </div>
+</div>
+<center>
+<figcaption><em>Figure 7.</em> U.S. Census Population.</figcaption></center>
+
+
 
 First of all the Latino population in the United States is the most quickly growing population group these past few decades. According to the United States Census Bureau, the Latino population in the U.S. grew from 3.2 million in 1950 to 62 million in 2020, with an increase of nearly 70% over the past 20 years.
+
+
+But looking at the diversity of movie characters, we notice something interesting: there is a striking difference when it comes to Hispanic representation. 
 
 <center>
 <iframe 
@@ -149,14 +159,17 @@ First of all the Latino population in the United States is the most quickly grow
 </iframe>
 </center>
 <center>
+<figcaption><em>Figure 8.</em></figcaption></center>
+
+
+The share of Hispanic characters has been stagnating between 3% and 5% since 1980s. While this can be partially explained by Latino population’s heavy consumption of South American media this doesn’t change the fact that, there is still much work to be done as when we see a lack of Latino characters on screen, it sends the message that their stories and experiences are not important or valued.
+<center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/movie_chars_race_count.html ">
 </iframe>
+<figcaption><em>Figure 9.</em></figcaption>
 </center>
 
-But looking at the diversity of movie characters, we notice something interesting: there is a striking difference when it comes to Hispanic representation. 
-
-The share of Hispanic characters has been stagnating between 3% and 5% since 1980s. While this can be partially explained by Latino population’s heavy consumption of South American media this doesn’t change the fact that, there is still much work to be done as when we see a lack of Latino characters on screen, it sends the message that their stories and experiences are not important or valued.
 
 Another interesting thing to note is the growth and fall of African American representation which corresponds to the rise and fall of Blaxploitation films. These were a genre of movies, that isn’t very well know in Europe, that emerged in the 1970s and initially aimed at a  African American audience. These films featured a mostly African American cast and often depicted themes of crime, violence, and empowerment, but they were also controversial in their portrayal of African American culture and were often accused of perpetuating negative stereotypes.
 
@@ -166,13 +179,16 @@ Another interesting thing to note is the growth and fall of African American rep
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/USA_Height.html ">
 </iframe>
+<figcaption><em>Figure 10.</em></figcaption></center>
+
 </center>
  Comparing these two we see that for almost one hundred years we analyse whe average height was around 180cm for men and 165cm. These values are quite close to the current population means. But in 30's and 40's and actor was on average 10cm taller than an average American man.
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/Hollywood_Height.html ">
 </iframe>
-</center>
+<figcaption><em>Figure 11.</em></figcaption></center>
+
 
 
 
@@ -191,7 +207,8 @@ In the graph bellow, we analyzed the emotion behind the occurences of words in s
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/sentiment_diversity.html">
 </iframe>
-</center>
+<figcaption><em>Figure 12.</em></figcaption></center>
+
 
 At first glance, we observe an overall negative sentiment for LGBTQ+ keywords compared to `man` and `woman` throughout the span of the dataset. What is more interesting is that the mean sentiment score for keywords `gay` and `queer` (which are the most frequent terms) even decreased compared to 1972 and before. This hints at the usage of non-binary terms in negative contexts with verbal slurs more often in movies. As our dataset does not include recent movies, we don’t see the effects of increased sensibility toward gender equality.
 
@@ -202,7 +219,7 @@ To demystify the plot above, we first point out two key elements. First, we real
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/sentiment_ethnicity.html">
 </iframe>
-</center>
+<figcaption><em>Figure 13.</em></figcaption></center>
 
 
 
@@ -223,8 +240,11 @@ Inspired by the evolution analysis[^2] of words we decided to study how semantic
       <img src="assets/img/trace/woman.svg"/>
   </div>
 </div>
+<center>
+<figcaption><em>Figure 14.</em>The Evolution of Words</figcaption></center>
 
-As expected we see that he word "gay" has undergone significant semantic change over time. Originally, the word "gay" meant "happy" or "carefree," and it was used as an adjective to describe things that were joyful or bright. However, in the 20th century, the word began to be used more frequently as a noun to refer to people who are attracted to members of the same sex. This can be clearly seen from its usage in movie subtitles.
+
+As expected we see that he word `gay` has undergone significant semantic change over time. Originally, the word `gay` meant `happy` or `carefree`, and it was used as an adjective to describe things that were joyful or bright. However, in the 20th century, the word began to be used more frequently as a noun to refer to people who are attracted to members of the same sex. This can be clearly seen from its usage in movie subtitles.
 
 When it comes to the usage of the word woman, we see that initially it was heavily connected to familly and children and over time it got much more sexualised. If this is connected to the sexual liberation or sexualisation is left upon the reader to decide.
 
@@ -243,6 +263,7 @@ You can click on each image to look at the words in more detail.
 
 Despite the glitz and glamour of the film industry, it has long struggled with a lack of diversity that extends beyond the silver screen. Behind the scenes, marginalized groups have been underrepresented or completely absent from key roles as directors, producers, and more. On screen, the stories and perspectives of these groups have also been overlooked or distorted, perpetuating harmful stereotypes and biases. However, in recent years, a movement has emerged to increase diversity and inclusivity in the industry. While progress has been made, the road to true representation is long and winding. To fully embrace the uniqueness and diversity of the human experience, the film industry must continue to push for greater representation and inclusivity in all aspects of movie-making. Only then will the stories of all people be told and celebrated on the big screen.
 
+---
 ## References
 
 [^1]: **What is FRED?** [https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred](https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/).
