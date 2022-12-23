@@ -4,7 +4,7 @@ usemathjax: true
 ---
 
 ## Introduction
-The movie industry has long been criticized for its lack of diversity both **on** and **off** screen. Despite numerous efforts to address this issue, the representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films. This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and perpetuates a narrow and limited view of the world.
+The movie industry has long been criticized for its lack of diversity both **on** and **off** screen. Representation of marginalized groups remains inadequate, with many voices and perspectives still underrepresented or completely absent from mainstream films. This lack of diversity not only perpetuates harmful stereotypes and biases, but it also limits the stories and perspectives that are told and negatively impacts the creativity of movie making.
 
 ## Data and Intial Analysis
 In this project, we use a combination of different datasets:
@@ -15,11 +15,11 @@ In this project, we use a combination of different datasets:
 
 ## Research questions
 
-To find out what it was like it the history of movie industy, we devised our reseach questions into two categories: **On** screen and **Off** screen where we will take a deeper look at the diversity in the movie industry.
+To start our analysis, we divided our reseach questions into two categories: **On** screen and **Off** screen where we will take a deeper look at the diversity in the movie industry.
 {% include services.html %}
 ### Diversity Off screen
 
-> What is the evolution of the gender Gap in movies? Is there a significant difference in number of movies directed by men vs women? And does the gender of lead actor or director impact the revenue of a movie?
+> Is there a significant difference in number of movies directed by men vs women? And does the gender of lead actor or director impact the revenue of a movie?
 
 Throughout the history of the silver screen, not many talented women have been recognized for their work as directors in the film industry. Notably the first woman to have won an Oscar for directing is Kathryn Bigelow for her work on the war film "The Hurt Locker." This happened in 2010, 81 years after the creation of the [**Academy Award for Best Director**](https://www.oscars.org) and only four women were nominated before that.
 
