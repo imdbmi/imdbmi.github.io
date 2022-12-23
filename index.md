@@ -14,14 +14,15 @@ In this project, we use a combination of different datasets:
  - [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) from which we were able to extract over 20 000 english subtitles and map to our existing data.
 - [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS) To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from *Federal Reserve Economic Data*. Since this inflation data goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century.
 
-To give our readers a brief view of the movies we use, we plot the top 21 genres in the movie dataset we combined.
-
+To give our readers a brief view of the data we use, we plot out the top 21 genres in the dataset we combined in Figure 1.
 <center>
 <iframe 
 frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/top_21_genre_movies.html">
 </iframe>
+<figcaption><em>Figure 1.</em> Overview of the dataset.</figcaption>
 </center>
 
+From the plot we can see that in this dataset most movies produced in history belong to the category of *drama film* and the distribution is indeed a long-tailed one.
 
 To study the revenue we first need to adjust the revenue according to the inflation rate. To this end we use the inflation rate data from **Federal Reserve Economic Data**[^1], specifically the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/series/CPIAUCNS). Since this inflation data records CPI from year 2022 and goes all the way back to 1913, therefore, it lends itself to our analysis of film revenues beginning in the early 19th century. The adjustment is done by multiplying the inflation rate factor to the movie revenue.
 
@@ -31,12 +32,14 @@ $$
 r_{year} = \frac{CPI_{\text{2022}}}{CPI_{year}}
 $$
 
-The the movie revenue for each year is adjusted by multiplying the revenue by this multiplier, and the revenue after ajustment is shown in the figure below
+Then the movie revenue for a specific year is adjusted by multiplying the revenue by this multiplier, and we show the revenue for the top 10 movie genres in Figure 2.
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/adjusted_revenue.html">
 </iframe>
+<figcaption><em>Figure 2.</em> Adjusted revenue for the top 10 genres.</figcaption>
 </center>
+We can see from this plot that most 
 
 # Our Focus
 
@@ -106,7 +109,6 @@ Lets look at the change in USA population over time:
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/US_Census.html ">
 </iframe>
 </center>
-<center>
 
 
 First of all the Latino population in the United States is the most quickly growing population group these past few decades. According to the United States Census Bureau, the Latino population in the U.S. grew from 3.2 million in 1950 to 62 million in 2020, with an increase of nearly 70% over the past 20 years.
@@ -121,7 +123,6 @@ First of all the Latino population in the United States is the most quickly grow
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/movie_chars_race_count.html ">
 </iframe>
 </center>
-<center>
 
 But looking at the diversity of movie characters, we notice something interesting: there is a striking difference when it comes to Hispanic representation. 
 
@@ -157,20 +158,16 @@ Another interesting thing to note is the growth and fall of African American rep
 
 ## Diversity
 
-### Gender
-
-
-
 ### Age
 
-Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. Some may be thinking that a film representing a diverse age group may be relatable and resonate with a larger audience thus leading to a higher chance of success on the market. In this part we will try to see if this is a myth or 
+Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. Some may be thinking that a film representing a diverse age group may be relatable and resonate with a larger audience thus leading to a higher chance of success on the market. So the *myth* we want to find out is
 
-In this part, we will try to unravel the mistery in our data to see if a more diversed cast in terms of age can ripple through more audiences thus generating higher movie box revenue.
-<center>
-<iframe 
-    frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_mean_cast_age.html">
-</iframe>
-</center>
+> Would a more diverse cast in terms of age help achieve higher box office revenues?
+
+
+ In this part we will try to see if this is just a myth or another secret key to achieve success on the silver screen.
+
+To begin with let's define some metrics that could 
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/revenue_vs_cast_age_diff.html">
@@ -211,7 +208,9 @@ As for the ethnicity-related keywords, the decrease in the sentiment of the term
 Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi and Lei Lei](https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article) we decided to study how semantic use change specifically when it comes to Hollywood movies. As the initial study was done on a collection of English language books, which is quite different from the daily spoken familiar language we often see in movies and we wanted to see what are the potentiall differences in semantics between these two.
 
 
-<div style="text-align:center; font-style:italic;">Scroll to left for more picture</div>
+## Plots (title to be changed)
+
+<div style="text-align:center; font-style:italic;"><sup><b>Scroll to left for more pictures</b></sup></div>
 <div class="scroll-container">
   <div class="gridscroll">
     <!-- PLACE YOUR IMG URL HERE -->
