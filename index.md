@@ -46,7 +46,6 @@ We can see from this plot that most
 To find out what it was like it the history of movie industy, we devised our reseach questions into two categories: **On** screen and **Off** screen where we will take a deeper look at the diversity in the movie industry.
 {% include services.html %}
 
-# Diversity Off Screen
 
 Throughout the history of the silver screen, not many talented women have been recognized for their work as directors in the film industry. Notably the first woman to have won an Oscar for directing is Kathryn Bigelow for her work on the war film "The Hurt Locker." This happened in 2010, 81 years after the creation of the [**Academy Award for Best Director**](https://www.oscars.org) and only four women were nominated before that.
 
@@ -150,19 +149,16 @@ Another interesting thing to note is the growth and fall of African American rep
   But... why do things work the way they do?
 </blockquote> -->
 
-## Diversity
 
-### Age
-
-Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. Some may be thinking that a film representing a diverse age group may be relatable and resonate with a larger audience thus leading to a higher chance of success on the market. So the *myth* we want to find out is
+Let's now turn our focus to another simple yet widely used metric to determine the diversity of a community - age. Some may be thinking that a film representing a diverse age group may be relatable and resonate with a larger audience thus leading to a higher chance of success on the market. So the *myth* we want to find out is 
 
 > Would a more diverse cast in terms of age help achieve higher box office revenues?
 
 In this part we will try to see if this is just a myth or another secret key to achieve success on the silver screen.
 
-To begin with let's define two metrics that reflect the diversity in age of the cast members: mean age and max difference in age. And then we performed a regression analysis to study the correlation between `mean cast age`, `max cast age`, and the movie box revenue. And we study the movie for every ten years and anylze them in their own genere. The result didn't show much 
+To begin with let's define two metrics that reflect the diversity in age of the cast members: mean age and max difference in age. And then we performed a regression analysis to study the correlation between `mean cast age`, `max cast age`, and the movie box revenue. And we study the movie for every ten years and anylze them in their own genere. The result didn't show much significant correlations.
 
-Moreover, we also visualize the relationship between 
+Moreover, we also visualize the relationship between these two variables and the revenue, and also there are not pattern we discern. Therefore, we would say this is possibly just a myth.
 <div style="text-align:center; font-style:italic;"><sup><b>Scroll to view the visualization for mean cast age</b></sup></div>
 <div class="scroll-container">
   <div class="gridscroll">
@@ -176,6 +172,7 @@ Moreover, we also visualize the relationship between
   </div>
 </div>
 
+# Diversity On Screen
 ### Sentiment Analysis
 To gain deeper insight into the language used in movies, we run experiments of [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) corpus, which is a collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/). We matched 27,329 subtitles from the corpus with the CMU dataset and extracted 74,518,995 tokens after lemmatization and stopword removal. We then split the corpus into 5 bins comprised of an equal number of tokens to compare the language across years.
 
@@ -209,8 +206,6 @@ As for the ethnicity-related keywords, the decrease in the sentiment of the term
 
 Inspired by the paper called [The evolution of LGBT labelling words Yaqian Shi and Lei Lei](https://www.cambridge.org/core/journals/english-today/article/abs/evolution-of-lgbt-labelling-words/C49EC6FDFA6117CB4DD69E16260DE005#article) we decided to study how semantic use change specifically when it comes to Hollywood movies. As the initial study was done on a collection of English language books, which is quite different from the daily spoken familiar language we often see in movies and we wanted to see what are the potentiall differences in semantics between these two.
 
-
-## Plots (title to be changed)
 
 <div style="text-align:center; font-style:italic;"><sup><b>Scroll to left for more pictures</b></sup></div>
 <div class="scroll-container">
