@@ -128,16 +128,19 @@ In this section, we will study the
 </center>
 
 ### Sentiment Analysis
+To gain deeper insight into the language used in movies, we run experiments of [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) corpus, which is a collection of translated movie subtitles from [opensubtitles](http://www.opensubtitles.org/). We matched 27,329 subtitles from the corpus with the CMU dataset and extracted 74,518,995 tokens after lemmatization and stopword removal. We then split the corpus into 5 bins comprised of an equal number of tokens to compare the language across years.
+
+For each keyword, we extracted both fix-sized context windows and dialogue sentences from subtitles and predicted their sentiment class with a transformer-based sentiment analyzer, [roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest).
 
 <center>
 <iframe 
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/sentiment_diversity.html">
 </iframe>
 </center>
-1. The first thing to notice in the above plot is that for some of the entries the 95% confidence interval bars are quite large. The main reason behind this is having too few samples for those keywords in the respective year intervals. 
-2. The other feature is that all of the average sentiments are negative, which is expected given the plots of distribution of sentiment above, showing `negative` sentiments are more than `negative` sentiments.
-3. We observe that except for two cases `man` has the highest sentiment scores across years. It is followed by `women`, which has slightly worse sentiment than `man`. These two keywords have stable mean sentiment scores.
-4. All of the remaining keywords carries more negative sentiments than `man` and `woman`, except for two cases. Furthermore, sentiments for `gay` and `queer` has attained lower values as the passes.
+
+To demystify the plot above, we first point out two key elements. First, we realize that all the sentiment scores are below zero. The reason behind this is 54.4% of analyzed sentences have a sentiment label `Neutral`, followed by 29.0% `Negative`. Another point to notice is the large 95% confidence interval bars for some entries. This due to having too few samples for those keywords in the respective year intervals.
+
+At first glance, we observe an overall negative sentiment for non-binary gender keywords compared to `man` and `woman` throughout the span of the dataset. What is more interesting is that the mean sentiment score for keywords `gay` and `queer` (which are the most frequent non-binary gender terms) even decreased compared to 1972 and before. This hints at the usage of non-binary terms in negative contexts with verbal slurs more often in movies. As our dataset does not include recent movies, we don’t see the effects of increased sensibility toward gender equality.
 
 <center>
 <iframe 
@@ -145,6 +148,10 @@ In this section, we will study the
 </iframe>
 </center>
 
+
+
+
+As for the ethnicity-related keywords, the decrease in the sentiment of the term `mexican` is distinguishable from the rest. Upon further inspection, we further realized that this is a reflection of the tension between the US and Mexico border and issues related to immigrants. In addition, the sentiment towards `russia` is also distinctively negative; however, it starts to raise after the dissolution of the USSR.
 
 ## Plots (title to be changes)
 <center>
