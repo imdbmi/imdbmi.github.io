@@ -110,7 +110,7 @@ en: &DEFAULT_EN
     "
 
   team:
-    title: "<h3>About IMDBMI Team</h3>"
+    title: "<h3>About imdbmi Team</h3>"
     text: "We are a team of EPFL students. <br><sup> (We also like palindrome!)</sup>"
     section: team
     people:
