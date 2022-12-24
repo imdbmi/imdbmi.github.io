@@ -38,8 +38,7 @@ Then the movie revenue for a specific year is adjusted by multiplying the revenu
     frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500" src="plots/adjusted_revenue.html">
 </iframe>
 <figcaption><em>Figure 2.</em> Adjusted revenue for the top 10 genres.</figcaption>
-</center>
-We can see from this plot that most 
+</center> 
 
 # Our Focus
 
@@ -98,11 +97,9 @@ Let's now turn our focus to another simple yet widely used metric to determine t
 
 > Would a more diverse cast in terms of age help achieve higher box office revenues?
 
-In this part we will try to see if this is just a myth or another secret key to achieve success on the silver screen.
+In this part we will try to see if this is just a myth or another secret key to achieve success and fame on the silver screen.
 
-To begin with let's define two metrics that reflect the diversity in age of the cast members: mean age and max difference in age. And then we performed a regression analysis to study the correlation between `mean cast age`, `max cast age`, and the movie box revenue. And we study the movie for every ten years and anylze them in their own genere. The result didn't show much significant correlations.
-
-Moreover, we also visualize the relationship between these two variables and the revenue, and also there are not pattern we discern. Therefore, we would say this is possibly just a myth.
+To begin with let's calculate two metrics that reflect the diversity in age of the cast members: mean age of top 5 casts and max difference in age of top 5 casts. And then we performed a regression analysis to study the correlation between `mean cast age`, `max cast age difference`, and movie genres to the movie box revenue which the results showed insignificant correlations. After, we divided and aggregated the movies for every ten years and anylze them in their own genres, and visualized the relationship between these two variables and the revenue as shown in Figure 6.
 <div style="text-align:center; font-style:italic;"><sup><b>Scroll to view the visualization for mean cast age</b></sup></div>
 <div class="scroll-container">
   <div class="gridscroll">
@@ -117,6 +114,10 @@ Moreover, we also visualize the relationship between these two variables and the
 </div>
 <center>
 <figcaption><em>Figure 6.</em> Revenue vs Cast Age.</figcaption></center>
+
+From these two plots we can see that the relationship between either mean cast age or max cast age difference and the revenue is **not** linear and consistent. And we can also see that the relationship between the two variables and the revenue is not the same for every genre. For example the movements of bubbles in both plots cannot be easily discerned, therefore "*having higher diversity in cast age leads to higher revenue*"  might just stay as a myth. 
+
+However, one of the interesting trends we find in these two plots is that we do see that the average and maximum age differences across all genres have become **more concentrated** in the last 20 years, which could mean that the opposite trend in diversity of cast age is happening in the film industry right now.
 
 
 # Diversity On Screen
