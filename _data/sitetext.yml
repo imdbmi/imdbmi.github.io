@@ -124,9 +124,9 @@ en: &DEFAULT_EN
       - name: "Chengkun Li"
         image: assets/img/team/chengkun.jpg
         social:
-          - url: www.linkedin.com/in/chengkun-li-
+          - url: https://github.com/CharlieLeee
             icon: fab fa-github
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/chengkun-li-
             icon: fab fa-linkedin-in
       - name: "Iana Peix"
         image: assets/img/team/iana.jpeg
