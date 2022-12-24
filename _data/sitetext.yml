@@ -117,7 +117,7 @@ en: &DEFAULT_EN
       - name: "Abdülkadir Gökce"
         image: assets/img/team/kadir.jpeg
         social:
-          - url: https://github.com/CharlieLeee
+          - url: https://github.com/akgokce
             icon: fab fa-github
           - url: https://www.linkedin.com/in/abdulkadirgokce/
             icon: fab fa-linkedin-in
