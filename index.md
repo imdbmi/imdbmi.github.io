@@ -100,7 +100,7 @@ Let's now turn our focus to another simple yet widely used metric to determine t
 In this part we will try to see if this is just a myth or another secret key to achieve success and fame on the silver screen.
 
 To begin with let's calculate two metrics that reflect the diversity in age of the cast members: mean age of top 5 casts and max difference in age of top 5 casts. And then we performed a regression analysis to study the correlation between `mean cast age`, `max cast age difference`, and movie genres to the movie box revenue which the results showed insignificant correlations. After, we divided and aggregated the movies for every ten years and anylze them in their own genres, and visualized the relationship between these two variables and the revenue as shown in Figure 6.
-<div style="text-align:center; font-style:italic;"><sup><b>Scroll to view the visualization for mean cast age</b></sup></div>
+<div style="text-align:center; font-style:italic;"><sup><b>Scroll to view the visualization for mean cast age, hit ▶︎ to view the animations. </b></sup></div>
 <div class="scroll-container">
   <div class="gridscroll">
     <!-- PLACE YOUR IMG URL HERE -->
