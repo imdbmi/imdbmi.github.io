@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   nav:
     - title: "GitHub"
-      url: https://github.com/epfl-ada/ada-2022-project-imdbmi/
+      url: https://github.com/imdbmi/imdbmi.github.io
     - title: "Team"
       section: team
     - title: "Acknowledgements"
